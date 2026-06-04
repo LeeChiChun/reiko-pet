@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Noto Sans TC', ui-sans-serif, system-ui, sans-serif;
+    --font-serif: 'Noto Serif TC', ui-serif, Georgia, serif;
+
+    --color-cream:        #FDFAF5;
+    --color-cream-alt:    #F0E8D5;
+    --color-warm-gray:    #C4B9A8;
+    --color-accent:       #2D4A3E;
+    --color-accent-light: #3D6354;
+    --color-ink:          #1C1C1C;
+    --color-muted:        #787065;
+    --color-border:       #E4DDD3;
+}
+
+body {
+    background-color: #FDFAF5;
+    color: #1C1C1C;
+    font-family: 'Noto Sans TC', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+a, button {
+    transition: all 0.25s ease;
+}
