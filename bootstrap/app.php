@@ -11,6 +11,9 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
+        // Trust all proxies so Cloudflare Tunnel's X-Forwarded-* headers are respected
+        $middleware->trustProxies(at: '*');
+
         $middleware->alias([
             'admin'           => \App\Http\Middleware\EnsureAdmin::class,
             'groomer'         => \App\Http\Middleware\EnsureGroomer::class,
