@@ -25,3 +25,11 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# lee-workflow 內部工作文件
+PROJECT.md
+docs/progress.md
+docs/decisions.md
+docs/abstractions.md
+docs/tasks/
+docs/installs.md
