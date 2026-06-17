@@ -57,13 +57,13 @@
 
 ### 預約流程（5 步驟）
 
-| Step 1 選擇服務 | Step 2 加購項目 | Step 3 選擇門市 |
+| Step 1 選擇寵物 | Step 2 選擇服務 | Step 3 加值項目 |
 |:---:|:---:|:---:|
 | ![Step 1](screenshots/screenshot_08a_booking_step1.png) | ![Step 2](screenshots/screenshot_08b_booking_step2.png) | ![Step 3](screenshots/screenshot_08c_booking_step3.png) |
 
-| Step 4 寵物資料 | Step 5 確認明細 | 完成預約 |
+| Step 4 門市與時間 | Step 5 確認明細 | 結帳付款 |
 |:---:|:---:|:---:|
-| ![Step 4](screenshots/screenshot_08d_booking_step4.png) | ![Step 5](screenshots/screenshot_08e_booking_step5.png) | ![完成](screenshots/screenshot_08f_booking_confirm.png) |
+| ![Step 4](screenshots/screenshot_08d_booking_step4.png) | ![Step 5](screenshots/screenshot_08e_booking_step5.png) | ![結帳](screenshots/screenshot_08f_booking_confirm.png) |
 
 ### 會員與後台
 
@@ -159,6 +159,4 @@ app/
 
 ## 開發者
 
-**李集雋** · 國立高雄師範大學 軟體工程與管理學系
-
-組員：陳宗佑、詹皓宇
+**李集雋** · [GitHub](https://github.com/LeeChiChun)
